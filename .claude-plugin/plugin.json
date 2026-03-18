@@ -1,9 +1,0 @@
-{
-  "name": "fathom",
-  "version": "0.3.0",
-  "description": "Connects Claude to Fathom AI — access meeting recordings, transcripts, summaries, and action items.",
-  "author": {
-    "name": "Andrii"
-  },
-  "keywords": ["fathom", "meetings", "transcripts", "recordings", "ai"]
-}
