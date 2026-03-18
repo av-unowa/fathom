@@ -1,11 +1,19 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "fathom",
-  "version": "1.0.0",
-  "description": "Fathom AI plugin for Claude",
+  "description": "Fathom AI plugin for Claude — access meeting recordings, transcripts, summaries, and action items.",
   "owner": {
     "name": "av-unowa"
   },
   "plugins": [
-    "fathom"
+    {
+      "name": "fathom",
+      "description": "Connects Claude to Fathom AI — access meeting recordings, transcripts, summaries, and action items.",
+      "version": "0.3.0",
+      "author": {
+        "name": "Andrii"
+      },
+      "source": "./plugins/fathom"
+    }
   ]
 }
